@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+}
+
+.newAppointmentButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+}
+
+.newAppointmentButton:hover {
+    background-color: #0056b3;
+}
+
+
+.appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.appointmentTable th,
+.appointmentTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.appointmentTable th {
+    background-color: #f4f4f4;
+}
